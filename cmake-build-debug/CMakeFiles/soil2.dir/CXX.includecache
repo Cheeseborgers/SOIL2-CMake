@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fason/dev/c_plus_plus/CMake/SOIL2-CMake_fork/src/common/common.cpp
+common.hpp
+/home/fason/dev/c_plus_plus/CMake/SOIL2-CMake_fork/src/common/common.hpp
+string
+-
+cmath
+-
+climits
+-
+limits
+-
+vector
+-
+CoreFoundation/CoreFoundation.h
+-
+windows.h
+-
+libgen.h
+-
+unistd.h
+-
+kernel/OS.h
+-
+kernel/image.h
+-
+stdlib.h
+-
+sys/sysctl.h
+-
+
+/home/fason/dev/c_plus_plus/CMake/SOIL2-CMake_fork/src/common/common.hpp
+string
+-
+
