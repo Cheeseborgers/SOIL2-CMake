@@ -6,6 +6,8 @@ Simple OpenGL Image Library 2 ![SOIL2](https://web.ensoft.dev/soil2/soil2-logo.s
 **Introduction:**
 --------------
 
+A [Cmake]https://cmake.org/ fork of **SOIL2**
+
 **SOIL2** is a fork of the Jonathan Dummer's [Simple OpenGL Image Library](http://www.lonesock.net/soil.html).
 
 **SOIL2** is a tiny C library used primarily for uploading textures into OpenGL.
