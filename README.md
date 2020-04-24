@@ -103,6 +103,21 @@ Can take a single image file where width = 6*height (or vice versa), split it in
 
 **Compiling:**
 ------------
+To add to a cMake project, just add the sub directory to your CMakeLists.txt.
+
+```
+cmake_minimum_required(VERSION 3.16)
+project(my_project)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_subdirectory( ${PROJECT_SOURCE_DIR}/include/SOIL2)
+
+add_executable(my_project main.cpp)
+
+target_link_libraries(my_project soil2)
+```
+
 To generate project files you will need to [download and install](http://industriousone.com/premake/download) [Premake](http://industriousone.com/what-premake)
 
 Then you can generate the static library for your platform just going to the project directory where the premake4.lua file is located and then execute:
