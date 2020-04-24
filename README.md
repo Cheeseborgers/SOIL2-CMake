@@ -118,6 +118,8 @@ add_executable(my_project main.cpp)
 target_link_libraries(my_project soil2)
 ```
 
+***With Premake:***
+
 To generate project files you will need to [download and install](http://industriousone.com/premake/download) [Premake](http://industriousone.com/what-premake)
 
 Then you can generate the static library for your platform just going to the project directory where the premake4.lua file is located and then execute:
